@@ -9,6 +9,8 @@
     padding: 10px 20px;
     background-color: rgb(156, 188, 125);
     border-radius: 7px;
+    height: auto;
+    min-height: 120px;
 }
 .top-box {
  height: 20px;
@@ -17,6 +19,7 @@
  border-radius: 5px;
  outline: none;
  font-size: 25px;
+ margin-top: 10px;
 }
 .add-btn{
     height: 35px;
@@ -24,16 +27,23 @@
     font-size: 25px;
     margin-left: 10px;
 }
-.containt{
-    width: 98%;
+/* .containt{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     padding: 5px 10px;
     height: 30px;
-    margin-top: 40px;
+  
+} */
+.todo{
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding: 5px 10px;
+border-radius: 6px;
+cursor: pointer;
 }
-.containt:hover{
+.todo:hover{
     background-color: rgb(210, 235, 228);
 }
 .delete-btn{
@@ -42,4 +52,8 @@
 button{
     cursor: pointer;
     border-radius: 5px;
+}
+center{
+    font-size: 25px;
+    font-weight: 600;
 }
