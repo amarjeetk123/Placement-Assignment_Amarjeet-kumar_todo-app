@@ -57,3 +57,6 @@ center{
     font-size: 25px;
     font-weight: 600;
 }
+input.task-done{
+    border-radius: 0px;
+}
